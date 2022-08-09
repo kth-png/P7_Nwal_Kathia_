@@ -1,0 +1,79 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.formBlock {
+  border: solid 2px rgb(251, 102, 127);
+  border-radius: 1rem;
+  background: transparent;
+
+  padding: 3rem;
+  margin: 3rem 40rem 3rem 40rem;
+  form {
+    margin-bottom: 2vh;
+  }
+  // span {
+  //   text-decoration: underline;
+  // }
+  #email,
+  #password,
+  #firstname {
+    font-weight: lighter;
+    font-size: 1.5rem;
+  }
+  #submit {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    // background-color: rgb(251, 102, 127);
+    //color: white;
+    border-radius: 5px;
+    //font-weight: lighter;
+    // border-bottom: inherit;
+    text-decoration: none;
+    margin-top: 1.5rem;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    li {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: 5px;
+      color: silver;
+      cursor: pointer;
+    }
+  }
+  .active-btn {
+    color: rgb(251, 102, 127);
+    text-decoration: underline;
+  }
+}
+
+.pageTitle {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.bckgrd {
+  overflow: hidden;
+  img {
+    z-index: -20;
+    position: fixed;
+    opacity: 0.5;
+  }
+}
+.input-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+  label,
+  input {
+    width: 50%;
+  }
+}

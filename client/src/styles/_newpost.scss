@@ -1,0 +1,38 @@
+.newpost-card {
+  display: grid;
+  grid-template-columns: 66px 1fr;
+  border: 2px solid rgb(251, 102, 127);
+  margin: 5vh;
+  padding: 4vh;
+  border-radius: 3rem;
+  position: relative;
+  min-height: 100px;
+
+  img {
+    height: 52px;
+    width: 52px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.192);
+    object-fit: cover;
+  }
+
+  textarea {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 20px 20px 6px 20px;
+    border: solid 2px black;
+    height: 60%;
+  }
+
+  button {
+    background: white;
+    width: 240px;
+    transform: translateY(-3px);
+
+    &:hover {
+      background: rgb(251, 102, 127);
+      width: 250px;
+      letter-spacing: 1px;
+    }
+  }
+}

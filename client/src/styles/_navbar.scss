@@ -1,0 +1,29 @@
+* {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.navbar {
+  margin-bottom: 10vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: solid 2px rgb(251, 102, 127);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  p {
+    margin-right: 1.5rem;
+  }
+}
+
+p span {
+  color: rgb(251, 102, 127);
+  font-weight: bolder;
+}
